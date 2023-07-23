@@ -1,0 +1,271 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.containeraa{
+    width: 100%;
+    font-family: 'PT SANS',sans-serif;
+    padding: 0;
+    margin: 0;
+    
+}
+
+section.hero{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: #333;
+}
+
+.navbar{
+    display: flex;
+    background-color: #333;
+    color: rgb(51, 34, 34);
+    height: 7vh;
+    position: sticky;
+    top: 0;
+}
+.list{
+    
+    width: 100px;
+    margin: 0;
+    font-size: 16px;
+    text-align: center;
+    line-height: 2.5;
+    color: #eeeeee;
+    font-family: 'PT SANS',sans-serif;
+    
+}
+
+.list:hover{
+    height: 50px;
+    font-size: 18px;
+    background-color: #333;
+    opacity: 0.9;
+    
+}
+.hero{
+    text-align: center;
+    background-size: cover ;
+    background: url("main1.jpeg")  no-repeat  ;
+    -webkit-background-size: cover;
+    color: white;
+    line-height: 1.5;
+}
+#whii{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+}
+h1,#hero1h1{
+    font-size: 64px;
+    padding-top: 100px;
+}
+h2 ,#hero1h2{
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+p ,#hero1p{
+    font-size: 20.8px;
+}
+
+.hero2{
+    height: 215vh;
+    width: auto;
+    background-color: #252529;
+    color: white;
+    margin: 0;
+    padding: 0px 48px;
+    line-height: 1.6;
+}
+
+.hero2,h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 26px;
+}
+
+.hero2,h3{
+    font-size: 32px;
+    margin: 32px 0px;
+    margin-bottom: 50px;
+}
+
+p,.lead{
+    font-size: 20.8px;
+    margin: 20.8px 0px;
+    
+    position: center;
+}
+
+.btn.btn-primary.mb{
+    color: white;
+    background-color: #b90415;
+    margin: 0px 0px 16px;
+    padding: 16px;
+    width: 167.72px;
+    height: 57.59px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.text-light{
+    font-size: 16px;
+    color: #f4f4f4;
+    margin: 16px 0px;
+}
+
+.section.bg-light{
+    padding: 15px 49px;
+    color: #333333;
+    text-align: center;
+}
+
+.section.bg-light,h3{
+    margin: 32px 0px;
+    font-size: 32px;
+}
+.section.bg-light,p{
+    font-size: 20.8px;
+    margin: 20.8px 0px;
+}
+.btn.btn-secondary{
+    color: #ffffff;
+    background-color: #103063;
+    font-size: 16px;
+    padding: 16px;
+    width: 104.5px;
+    height: 57.59px;
+    line-height: 0.5;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.section.bg-light .img{
+    
+}
+
+#entertainment{
+    background: url("section-bg.jpeg") no-repeat bottom/cover;
+    color: #ffffff;
+    width: auto;
+    height: 30vh;
+    padding: 10rem 0;
+    text-align: center;
+
+}
+
+.container1{
+    padding: 0 48px;
+    font-size: 16px;
+    margin-top: 2%;
+    
+}
+
+.container2{
+    background-color: #f4f4f4;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: p;
+}
+
+.gift-cards{
+    display: flex;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    
+}
+
+.flex-item{
+    height: 30vh;
+    width: 50%;
+}
+
+.flex-item, .c1{
+    width: 500px;
+    height: 400px;
+}
+.flex-item,h2{
+    font-size: 24px;
+    margin: 19.92px 0px;
+    color: #333333;
+    text-align: left;
+}
+.flex-item,p{
+    font-size: 16px;
+    margin: 16px 0px;
+
+}
+#caa{
+    font-size: 16px;
+    margin: 16px 0;
+}
+#c1{
+    width: 40%;
+}
+#c2{
+    width: 50%;
+    text-align: left;
+}
+.container3{
+    background-color: #252529;
+}
+.footer-cols{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    position: center;
+    line-height: 1.5;
+    padding: 32px;
+}
+ul{
+    width: 220px;
+    height: 220px;
+    
+    color: #ffffff;
+    font-size: 14px;
+    margin: 14px 0px;
+    padding: 0px 0px 0px 40px;
+    text-decoration: none;
+    list-style-type: none;
+}
+li{
+    line-height: 1.5;
+    font-size: 19.2px;
+}
+
+ul li:first-child{
+    font-size: 1.2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: #444 solid 1px;
+    margin-bottom: 1rem;
+}
+a{
+    font-size: 14px;
+    width: auto;
+    height: 18px;
+    text-decoration: none;
+    color: #cccccc;
+}
+.footer-bottom.text-center{
+    text-align: center;
+    color: #ffffff;
+    background: #333333;
+    font-size: 16px;
+    height: 57.59;
+    padding: 16px;
+}
+.text-secondary{
+    color: #333333;
+}
