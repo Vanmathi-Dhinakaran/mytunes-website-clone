@@ -1,13 +1,16 @@
 *{
     padding: 0;
+    width: auto;
     margin: 0;
-    box-sizing : border-box;
+    box-sizing: border-box;
+    
 }
 .containeraa{
     width: 100%;
     font-family: 'PT SANS',sans-serif;
     padding: 0;
     margin: 0;
+    background-color: #252529;
     
 }
 
@@ -19,6 +22,7 @@ section.hero{
     margin-top: 0;
     padding-top: 0;
     background-color: #333;
+    color: #ffffff;
 }
 
 .navbar{
@@ -55,23 +59,31 @@ section.hero{
     -webkit-background-size: cover;
     color: white;
     line-height: 1.5;
+    background-color: #252529;
 }
 #whii{
     color: #ffffff;
     text-align: center;
     font-size: 40px;
+    display: inline-block;
+    
+}
+h3{
+    color: #ffffff;
 }
 h1,#hero1h1{
     font-size: 64px;
     padding-top: 100px;
+    color: #ffffff;
 }
 h2 ,#hero1h2{
     font-size: 32px;
-    color: white;
+    color: #ffffff;
     text-align: center;
 }
 p ,#hero1p{
     font-size: 20.8px;
+    color: #ffffff;
 }
 
 .hero2{
@@ -156,7 +168,7 @@ p,.lead{
     background: url("section-bg.jpeg") no-repeat bottom/cover;
     color: #ffffff;
     width: auto;
-    height: 30vh;
+    height: 80vh;
     padding: 10rem 0;
     text-align: center;
 
@@ -267,5 +279,14 @@ a{
     padding: 16px;
 }
 .text-secondary{
+    color: #333333;
+}
+#bb{
+    color: #333333;
+    line-height: 2;
+    font-size: 16px;
+}
+
+.caa{
     color: #333333;
 }
